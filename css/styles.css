@@ -39,6 +39,7 @@ body {
 .navbar {
     width: 100vw;
     border-bottom: 1px solid rgb(189, 189, 189) ;
+    background-color: white;
 }
 
 .navbar .logo-user-box {
@@ -83,6 +84,17 @@ body {
 }
 
 
-.container .question-answer-list {
+.container .question-answer-list li {
+    margin-bottom: 60px;
+}
 
+
+.container .question-answer-list li h2 {
+    padding-bottom: 15px;
+    line-height: 34px;
+}
+
+.container .question-answer-list li p {
+    padding-bottom: 15px;
+    line-height: 28px;
 }
