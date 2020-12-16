@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* utilities */
+.d-flex {
+    display: flex;
+}
+
+.p-fixed {
+    position: fixed;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.ul-nostyle {
+    list-style: none;
+}
+
+#logoG {
+    width: 75px;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    padding-top: 230px;
+}
+
+/* header */
+header {
+
+}
+
+.navbar {
+    width: 100vw;
+    border-bottom: 1px solid rgb(189, 189, 189) ;
+}
+
+.navbar .logo-user-box {
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 25px;
+}
+
+.navbar .logo-user-box span {
+    align-items: center;
+}
+
+.navbar .logo-user-box span h2 {
+   font-weight: 500;
+   color: rgb(107, 107, 107);
+   padding-left: 5px;
+}
+
+.navbar .logo-user-box .user {
+    align-items: center;
+}
+
+.navbar .logo-user-box button {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+
+.navbar .ul-nav {
+    margin: 12px 25px;
+}
+
+.navbar .ul-nav li {
+    color: rgb(100, 100, 100);
+    font-size: 14px;
+    padding-right: 40px;
+}
