@@ -90,16 +90,21 @@
 
             // var_dump($faqs);
         ?>
-        <?php foreach ($faqs as $key => $faq) { ?>
-
-            <?php foreach ($faq as $value) { ?>
-                <!-- question -->
-                <h2> <?php echo $value['question'] ?> </h2>
-                <!-- answer -->
-                <p> <?php echo $value['answer'] ?> </p>
-
+        <ul class="question-answer-list">
+            <?php foreach ($faqs as $key => $faq) { ?>
+                <?php foreach ($faq as $value) { ?>
+                    <!-- question -->
+                    <li>
+                        <h2> <?php echo $value['question'] ?> </h2>
+                        <!-- answer -->
+                        <p> <?php echo $value['answer'] ?> </p>
+                    </li>
+                <?php } ?>
             <?php } ?>
-        <?php } ?>
+        
+        </ul>
+
+
         </div>
 
 
